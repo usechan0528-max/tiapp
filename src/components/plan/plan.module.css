@@ -1,0 +1,17 @@
+.plan { max-width: 48rem; }
+.heading,.actions { display:flex; align-items:center; justify-content:space-between; gap:.7rem; flex-wrap:wrap; }
+.heading h1 { margin:0; }
+.context,.meta,.row small { color:#4e6359; }
+.card { background:#e8efe4; padding:clamp(1.2rem,4vw,2rem); border:1px solid var(--line); border-radius:1rem; margin:1.3rem 0; }
+.card h2 { margin:.35rem 0 .65rem; }
+.card small { font-weight:650; color:var(--accent); }
+.section { margin:1.7rem 0; }
+.section h3 { margin:0; padding-bottom:.65rem; border-bottom:2px solid var(--ink); }
+.row { border-bottom:1px solid var(--line); padding:.85rem 0; }
+.row p { margin:.28rem 0; white-space:pre-line; }
+.meta,.row small { font-size:.86rem; line-height:1.5; }
+.secondary { color:var(--accent); background:white; border:1px solid var(--line); }
+.actions { justify-content:flex-end; padding:1.25rem 0; }
+.history { border-top:1px solid var(--line); padding:1rem 0; }
+.history summary { cursor:pointer; font-weight:650; }
+.notice { padding:1rem; margin:1rem 0; background:#fff2e8; border-radius:.6rem; }

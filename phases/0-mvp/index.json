@@ -1,0 +1,58 @@
+{
+  "project": "해커톤",
+  "phase": "0-mvp",
+  "steps": [
+    {
+      "step": 0,
+      "name": "project-setup",
+      "status": "completed",
+      "started_at": "2026-11-27T14:01:17+0900",
+      "summary": "Next.js 모바일 네 화면과 SQLite 재연결을 검증했다. 공통 탐색은 src/components/AppShell.tsx에서 제공한다.",
+      "completed_at": "2026-11-27T14:39:11+09:00"
+    },
+    {
+      "step": 1,
+      "name": "team-invite",
+      "status": "completed",
+      "summary": "별도 쿠키 세션의 TF 생성·참여·재접속과 링크 교체·폐쇄를 검증했다.",
+      "completed_at": "2026-11-27T14:39:11+09:00"
+    },
+    {
+      "step": 2,
+      "name": "plan-feedback",
+      "status": "completed",
+      "summary": "팀원 의견을 반영한 계획 버전과 팀장 확정 및 업무 배정의 원자성을 검증했다. 실제 OpenAI 응답을 확인했다.",
+      "completed_at": "2026-11-27T14:39:11+09:00"
+    },
+    {
+      "step": 3,
+      "name": "task-handoff",
+      "status": "completed",
+      "summary": "선행 자료가 제출되면 후속 담당자 카드에서 원본을 열 수 있음을 두 세션으로 검증했다.",
+      "completed_at": "2026-11-27T14:39:11+09:00"
+    },
+    {
+      "step": 4,
+      "name": "progress-checkin",
+      "status": "completed",
+      "summary": "예약 시점의 후속 질문과 답변 이후 두 업무판에 새로고침 없이 막힘 해제가 반영됨을 검증했다.",
+      "completed_at": "2026-11-27T14:39:11+09:00"
+    },
+    {
+      "step": 5,
+      "name": "final-output",
+      "status": "completed",
+      "summary": "계획별 결과물 생성·원본 연결·보완·버전 확정을 검증했다. 실제 모델과 두 사용자 세션에서 출처를 확인했다.",
+      "completed_at": "2026-11-27T14:39:11+09:00"
+    },
+    {
+      "step": 6,
+      "name": "mobile-e2e",
+      "status": "completed",
+      "summary": "독립된 모바일 Chromium 세션으로 초대부터 최종본 열람, 초대 링크 교체·폐쇄를 검증했다. 시연 절차는 docs/ARCHITECTURE.md에 기록했다. 최종 실행 결과는 3 passed (26.7s)다. 커밋 69d8ce2의 깨끗한 작업 트리에서 재검증한 결과, 테스트 33개와 E2E 3개(27.4초)가 통과했다. 커밋 c13c921의 깨끗한 작업 트리에서 전체·운영 npm audit 취약점은 각각 0건이었고, 테스트 33개, 린트, 빌드와 전체 E2E 3개(27.4초)가 모두 통과했다.",
+      "completed_at": "2026-11-27T14:39:11+09:00"
+    }
+  ],
+  "created_at": "2026-11-27T14:01:17+0900",
+  "completed_at": "2026-11-27T14:39:11+09:00"
+}

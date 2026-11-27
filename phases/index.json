@@ -1,0 +1,24 @@
+{
+  "phases": [
+    {
+      "dir": "0-mvp",
+      "status": "completed",
+      "completed_at": "2026-11-27T14:39:11+09:00"
+    },
+    {
+      "dir": "fast-handoff",
+      "status": "completed",
+      "completed_at": "2026-11-27T15:32:19+09:00"
+    },
+    {
+      "dir": "source-revisions",
+      "status": "completed",
+      "completed_at": "2026-11-27T15:33:56+0900"
+    },
+    {
+      "dir": "row-recheck",
+      "status": "completed",
+      "completed_at": "2026-11-27T16:06:59+0900"
+    }
+  ]
+}

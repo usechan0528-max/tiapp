@@ -1,0 +1,21 @@
+.panel { overflow-wrap: anywhere; }
+.panel h2, .panel h3 { margin: 0; line-height: 1.35; }
+.status, .actions { display: flex; align-items: center; justify-content: space-between; gap: .8rem; flex-wrap: wrap; }
+.status { margin-top: 2rem; padding: 1rem 0; border-block: 1px solid var(--line); }
+.actions { justify-content: flex-start; margin: 1.2rem 0; }
+.panel button { border: 0; border-radius: .55rem; padding: .75rem 1rem; background: #176448; color: white; font: inherit; font-weight: 650; cursor: pointer; }
+.panel button:hover { background: #104e38; }
+.panel button:disabled { opacity: .55; cursor: default; }
+.panel a { color: #176448; text-underline-offset: .2em; }
+.paper { background: white; padding: clamp(1rem, 4vw, 2rem); border: 1px solid var(--line); border-radius: .8rem; margin: .5rem 0 1rem; }
+.stamp { color: #176448; font-size: .85rem; margin-top: 2rem; font-weight: 700; }
+.section { border-top: 1px solid var(--line); margin-top: 1.2rem; padding-top: 1.2rem; }
+.criteria { font-size: .875rem; }
+.body { white-space: pre-wrap; }
+.tableWrap { overflow-x: auto; }
+.section table { width: 100%; border-collapse: collapse; margin: .75rem 0; }
+.section td { padding: .55rem; border: 1px solid var(--line); }
+.section details { margin: .5rem 0; background: #f5f7f2; padding: .65rem; border-radius: .4rem; }
+.section summary { cursor: pointer; }
+.issue { padding: .8rem; margin-top: .75rem; border-left: 3px solid #986929; background: #fbf5e8; }
+.issue p { margin: .35rem 0; }

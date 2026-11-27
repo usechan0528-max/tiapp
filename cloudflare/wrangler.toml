@@ -1,0 +1,4 @@
+name = "tf-hackathon-openai"
+main = "openai-worker.mjs"
+compatibility_date = "2026-11-01"
+workers_dev = true

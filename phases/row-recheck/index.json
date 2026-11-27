@@ -1,0 +1,24 @@
+{
+  "project": "해커톤",
+  "phase": "row-recheck",
+  "steps": [
+    {
+      "step": 0,
+      "name": "row-tracking",
+      "status": "completed",
+      "started_at": "2026-11-27T16:02:22+0900",
+      "summary": "POST /api/tasks는 기존 제출에 선택적 evidence:{sourceId,revision,header:string[],cells:string[]}를 받아 직접 선행 업무의 표시 버전 및 표 머리글+첫 셀의 유일성과 전체 행을 검증한다. src/lib/tasks/types.ts의 sourceBlocks(text)는 TSV·마크다운 표를 {header,rows}로 반환한다. GET tasks[].rowEvidence(미연결 시 생략)는 sourceId,header,previous,latest(삭제·모호 시 null),reason(changed/deleted/ambiguous/null),pending,targetRevision을 제공한다. PATCH /api/tasks에 X-TF-Member와 {action:\"recheckRow\",id:결과업무ID,resultRevision:결과업무.revision,targetRevision:rowEvidence.targetRevision}을 보내면 담당자만 재확인하며 같은 요청은 멱등, 오래된 버전은 409다. 기존 원본 열람 PATCH는 재확인을 해제하지 않는다.",
+      "completed_at": "2026-11-27T16:04:07+0900"
+    },
+    {
+      "step": 1,
+      "name": "recheck-board",
+      "status": "completed",
+      "started_at": "2026-11-27T16:04:07+0900",
+      "completed_at": "2026-11-27T16:06:59+0900",
+      "summary": "업무판의 근거 행 선택과 이전·현재·점검결과 비교, 담당자 조치 완료 및 팀 전체 동기화를 구현했다. lint, Vitest 42개, build 통과. 로컬 서버 수신을 허용한 별도 포트에서 모바일 E2E 9개 통과."
+    }
+  ],
+  "created_at": "2026-11-27T16:02:22+0900",
+  "completed_at": "2026-11-27T16:06:59+0900"
+}

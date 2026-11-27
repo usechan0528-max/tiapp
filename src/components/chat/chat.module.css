@@ -1,0 +1,21 @@
+.team { margin: 0 0 1.2rem; color: #465e50; font-weight: 600; }
+.switcher { display: flex; gap: .25rem; border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
+.switcher button { color: #516858; background: transparent; border-radius: .35rem .35rem 0 0; }
+.switcher button[aria-pressed=true] { color: var(--accent); border-bottom: 3px solid var(--accent); }
+.log { list-style: none; padding: 0 .35rem; margin: 0; max-height: 43dvh; overflow: auto; overscroll-behavior: contain; }
+.log li { padding: .65rem 0; }
+.log header { display: flex; align-items: baseline; gap: .7rem; }
+.log time, .interval { color: #4e6256; font-size: .88rem; }
+.log p { display: table; white-space: pre-wrap; margin: .35rem 0 0; padding: .55rem .85rem; border: 1px solid var(--line); border-radius: 0 .8rem .8rem; background: #fff; }
+.log li:focus { background: #e5eedc; outline-offset: -2px; }
+.empty { padding: 1.1rem 0; color: #4e6256; }
+.composer { margin-top: 1rem; border-top: 1px solid var(--line); padding-top: .85rem; }
+.composer button { justify-self: end; min-width: 6rem; }
+.note { padding: 1rem; margin: 1rem 0; border: 1px solid var(--line); border-radius: .7rem; background: #fff; }
+.note h2 { font-size: 1.12rem; margin: 0 0 .8rem; }
+.note > div { padding: .75rem 0 0; border-top: 1px solid var(--line); }
+.note strong { color: var(--accent); font-size: .85rem; }
+.note p { margin: .3rem 0 0; }
+.note button { color: var(--accent); background: transparent; text-decoration: underline; padding-inline: 0; }
+.boardHeader { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.boardHeader a { min-height: 44px; display: inline-flex; align-items: center; font-weight: 650; }
